@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
@@ -12,16 +11,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <Providers>
       <RouterProvider router={router} />
     </Providers>
-=======
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App.tsx";
-
-import "./globals.css";
-
-ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <App />
->>>>>>> origin/main
   </React.StrictMode>
 );
