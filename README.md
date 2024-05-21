@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # Evlove as dev client setup
 
+=======
+>>>>>>> origin/main
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -24,7 +27,11 @@ export default {
     project: ['./tsconfig.json', './tsconfig.node.json'],
     tsconfigRootDir: __dirname,
   },
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> origin/main
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`

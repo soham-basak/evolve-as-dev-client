@@ -10,7 +10,10 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+<<<<<<< HEAD
   server: {
     port: 5174,
   },
+=======
+>>>>>>> origin/main
 });
