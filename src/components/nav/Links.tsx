@@ -11,19 +11,21 @@ const Links = ({ className }: LinksProps) => {
   const pathMatch = useMatch(location.pathname);
 
   return (
-    <ul className={cn('flex items-center -ml-24 gap-8', className)}>
+    <ul className={cn('flex items-center gap-8', className)}>
       {NAV_LINKS.map((link) => {
         const isActive = pathMatch?.pathname === link.path;
 
         return (
           <li key={link.path}>
             <Button
-              className={cn('px-0 hover:text-rose-600 dark:hover:text-rose-600', {
-                'text-rose-600 underline dark:text-rose-600': isActive,
-              })}
+              className={cn(
+                'px-0 dark:hover:text-neutral-200 text-neutral-600 hover:text-neutral-900 dark:text-neutral-400',
+                {
+                  'underline dark:text-neutral-200 text-neutral-900': isActive,
+                }
+              )}
               variant='link'
               size='sm'
-              asChild
             >
               <Link to={link.path} className='text-base sm:text-sm'>
                 {link.name}
